@@ -40,7 +40,7 @@ Una vez realiza la depuración previa de los datasets unificaremos los dos datas
 
 *Disclaimer: En futuras implementaciones uno de los puntos clave será el de adaptar nuestros datasets a barrios y calles para una mayor precisión en las predicciones así como aumentar nuestros datos en la muestra utilizado, siendo además éstos actualizados puesto que los datos aportados son datos de años pasados.
 
-Seguidamnte, resetearemos el índice de nuestro dataset y añadiremos una columna tipo String que identifique de forma única los distintos locales existentes en nuestro dataset.
+Seguidamente, resetearemos el índice de nuestro dataset y añadiremos una columna tipo String que identifique de forma única los distintos locales existentes en nuestro dataset.
 
 Finalmente, renombraremos las columnas tal que nuestro dataset final se componga de las siguientes variables:
 * localID: Identificador único del local.
