@@ -57,13 +57,28 @@ Finalmente, renombraremos las columnas tal que nuestro dataset final se componga
 * salePrice: Precio de venta del local.
 
 
-## 3. Muestreo u análisis de datos
+## 3. Análisis de datos
+Utilizando herramientas de visualización y técnicas estadísticas, exploraremos las características clave que definen la naturaleza de los locales comerciales y su entorno. A través de este análisis, buscamos revelar percepciones valiosas que respalden la toma de decisiones informada y proporcionen una visión clara de los factores que influyen en la dinámica de nuestro conjunto de datos.
+
+### 3.1. Scatter plot: Relación entre logitud y latitud
+* La extensión de los locales en activo en Barcelona es muy amplia. Este factor será un atenuante para el impacto de nuestro proyecto pues la competencia es la clave para situar un nuevo local en el mapa
+* En determinadas coordenadas notamos una gran influencia de tipos de local según su actividad. Este hecho será crucial para nuestro estudio sobre donde posicionar un nuevo local estratégicamente.
+* 
+### 3.2. Scatter plot: Comparación precios de alquiler y venta por distrito
+* Como era de esperar, el precio de alquiler y venta está positivamente correlacionado, es decir, cuanto mayor sea el precio de alquiler, mayor será el de venta, y viceversa.
+* Los distritos con mayor precio de alquiler son: 'Ciutat Vella', 'Sarrià-Sant Gervassi' y 'Eixample'.
+* Los distritos con mayor precio de venta son: 'Sarrià-Sant Gervassi', 'Sant Marti', 'Ciutat Vella' y 'Eixample'.
+* Existe una gran correlación entre el precio de alquiler/venta y el distrito. Hecho que deberemos de tener muy en cuenta para la posterior toma de decisiones.
+  
+### 3.3. Count plot: Visualización de la distribución de tipos de actividad
+* Los tipos de negocio local más comunes son: Restaurants, Serveis a les empreses i oficines, Bars / CIBERCAFÈ, Vestir - Perruqueries
+* Por tanto, éstos tienden a ser los más rentables en zonas de influecia, las cuales estudiaremos posteriormente
+
+
+## 4.Muestreo de datos
 Debido a que nuestro dataset tiene un número muy elevado de instancias hemos decidido realizar el análisis de una muestra reducida con tal de probar el potencial de nuestro proyecto. 
 En primer lugar, hemos seleccionado 3 de las actividades más influyentes en los distritos de Barcelona y hemos filtrado nuestro dataset por éstas.
 Seguidamente hemos seleccionado un 30% de muestra de locales disponibles y un 70% de muestra de locales ocupados cuyo tipo de actividad es de una de las actividades filtradas.
-
-Para ver como interactuan entre sí las variables de nuestro dataset hemos realizado distintas visualizaciones para un mayor entendimiento de las mismas:
-### 3.1. 
 
 
 ## 5. Conclusiones
