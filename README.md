@@ -1,4 +1,4 @@
-# DataCommerIdeal
+# DataComerIdeal
 
 ## 1. Introducción
 En primer lugar, describamos los datasets a unificar escogidos y razonamos el por qué de dicha decisión: Como dataset base hemos escogido el dataset "2019_censcomercialbcn_detall.csv" el cual hemos denominado como locals_dt. En él encontraremos la información más relevante sobre los comercios locales disponibles y ocupados en los diferentes distritos y barrios Barcelona en 2019. Por otra parte, nuestro dataset complementario se basa en una combinación de dos datasets los cuales almacenan el precio de alquiler mensual y venta de los distintos locales por barrios en Barcelona. Éstos son los siguientes: "loclloevolucio.csv" y "locveevolucio.csv" los cuales en conjunto serán nombrados como prices_dt.
