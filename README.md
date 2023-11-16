@@ -75,7 +75,7 @@ Utilizando herramientas de visualización y técnicas estadísticas, exploraremo
 * Por tanto, éstos tienden a ser los más rentables en zonas de influecia, las cuales estudiaremos posteriormente
 
 
-## 4.Muestreo de datos
+## 4. Muestreo de datos e implementación de la "Milla de oro"
 Debido a que nuestro dataset tiene un número muy elevado de instancias hemos decidido realizar el análisis de una muestra reducida con tal de probar el potencial de nuestro proyecto. 
 
 Para ello, hemos seleccionado 3 de las actividades más influyentes en los distritos de Barcelona y hemos filtrado nuestro dataset por éstas.
