@@ -11,6 +11,17 @@ La fase de depuración y preprocesamiento de datos juega un papel crucial para g
 En nuestro caso hemos dividido la depuración de datos en dos procesos diferenciados: (2.1) Depuración previa a la unificación, en el cual hemos tratado los datasets por separado y hemos reducido las variables necesarias y (2.2) Depuración posterior a la unificación, donde hemos seleccionado las variables relevantes del dataset unificado para un fiable tratamiento de datos.
 
 ### 2.1. Depuración previa a la unificación
-
+#### 2.1.1. Local_dt
+#### 2.1.2. Prices_dt
 
 ### 2.2. Depuración posterior a la unificación
+
+
+
+## 3. Análisis de datos
+
+
+## 4. 
+
+
+## 5. Conclusiones
