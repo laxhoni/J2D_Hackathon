@@ -82,7 +82,8 @@ Debido a que nuestro dataset tiene un número muy elevado de instancias hemos de
 Para ello, hemos seleccionado 3 de las actividades más influyentes en los distritos de Barcelona y hemos filtrado nuestro dataset por éstas.
 Seguidamente hemos seleccionado un 30% de muestra de locales disponibles y un 70% de muestra de locales ocupados cuyo tipo de actividad es de una de las actividades filtradas.
 
-### 4.2. Implementación de la Milla de Oro:
+### 4.2. Desarrollo de la Milla de Oro:
+La idea principal acerca de este concepto es la siguiente: A través de un método de clustering como k-means hayar los clusters principales por distrito y tipo de actividad del local. Seguidamente comparar la ubicación de estos clusters de interés con los distintos locales disponibles en dicho distrito y seleccionar el más cercano como "oro". Ésto se implementará en una nueva columa de booleanos "gold" en nuestro dataset locals_dt.
 
 El análisis respalda la validez del concepto de "milla de oro" al revelar patrones que sugieren la existencia de áreas con una alta concentración de locales comerciales del mismo tipo. La estrategia de establecer un local cercano a lugares con un gran número de comercios similares muestra beneficios potenciales, ya que:
 
@@ -98,6 +99,7 @@ En resumen, la estrategia de establecer un local en una "milla de oro" emerge co
 
 ## 5.Implementación a futuro
 * Actualización de los datos a una fecha actual para poder abordar problemas de actualidad a tiempo real y dar solución a éstas con la mayor brevedad posible.
+* Implementación del concepto desarrollado y descrito anteriormente: la "Milla de oro"
 * Aumento de la muestra del dataset para una mayor precisión en las predicciones así como una aplicación más fiel a la realidad.
 * Especializar nuestros datos en función no solo del distrito sino del barrio puediendo así facilitar al usuario la filtración de locales por proximidad.
 * Inclusión de otros datasets a nuestras variables como por ejemplo "opendatabcn_mercats-centrescomercials_galeries-comercials.csv" o "opendatabcn_mercats-centrescomercials_grans-centres-comercials" para tener en cuenta así zonas de grandes centros comerciales modificando así nuestra milla de oro en función de la ubicación de este tipo de competencia a gran escala.
