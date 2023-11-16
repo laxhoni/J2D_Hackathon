@@ -57,10 +57,13 @@ Finalmente, renombraremos las columnas tal que nuestro dataset final se componga
 * salePrice: Precio de venta del local.
 
 
-## 3. Análisis de datos
+## 3. Muestreo u análisis de datos
+Debido a que nuestro dataset tiene un número muy elevado de instancias hemos decidido realizar el análisis de una muestra reducida con tal de probar el potencial de nuestro proyecto. 
+En primer lugar, hemos seleccionado 3 de las actividades más influyentes en los distritos de Barcelona y hemos filtrado nuestro dataset por éstas.
+Seguidamente hemos seleccionado un 30% de muestra de locales disponibles y un 70% de muestra de locales ocupados cuyo tipo de actividad es de una de las actividades filtradas.
 
-
-## 4. 
+Para ver como interactuan entre sí las variables de nuestro dataset hemos realizado distintas visualizaciones para un mayor entendimiento de las mismas:
+### 3.1. 
 
 
 ## 5. Conclusiones
