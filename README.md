@@ -76,10 +76,24 @@ Utilizando herramientas de visualización y técnicas estadísticas, exploraremo
 
 
 ## 4. Muestreo de datos e implementación de la "Milla de oro"
+### 4.1. Creación de una muestra
 Debido a que nuestro dataset tiene un número muy elevado de instancias hemos decidido realizar el análisis de una muestra reducida con tal de probar el potencial de nuestro proyecto. 
 
 Para ello, hemos seleccionado 3 de las actividades más influyentes en los distritos de Barcelona y hemos filtrado nuestro dataset por éstas.
 Seguidamente hemos seleccionado un 30% de muestra de locales disponibles y un 70% de muestra de locales ocupados cuyo tipo de actividad es de una de las actividades filtradas.
 
+### 4.2. Implementación de la Milla de Oro:
+
+El análisis respalda la validez del concepto de "milla de oro" al revelar patrones que sugieren la existencia de áreas con una alta concentración de locales comerciales del mismo tipo. La estrategia de establecer un local cercano a lugares con un gran número de comercios similares muestra beneficios potenciales, ya que:
+
+* Aumento de Visibilidad: La proximidad a una concentración de comercios similares aumenta la visibilidad de nuestro local entre clientes interesados en ese tipo de productos o servicios.
+
+* Generación de Tráfico: La presencia de múltiples comercios del mismo tipo crea un flujo constante de clientes potenciales, lo que puede traducirse en un aumento en las ventas.
+
+* Competencia y Colaboración: Estar en una "milla de oro" fomenta la competencia saludable y la colaboración entre negocios similares, lo que puede llevar a oportunidades de crecimiento mutuo.
+
+* Sinergias Comerciales: La cercanía a otros comercios similares puede facilitar asociaciones estratégicas y sinergias comerciales, aprovechando la afluencia de clientes compartidos.
+
+En resumen, la estrategia de establecer un local en una "milla de oro" emerge como una táctica efectiva respaldada por el análisis de datos, ofreciendo ventajas competitivas y oportunidades de crecimiento en el mercado local.
 
 ## 5. Conclusiones
