@@ -11,7 +11,7 @@ La fase de depuración y preprocesamiento de datos juega un papel crucial para g
 En nuestro caso hemos dividido la depuración de datos en dos procesos diferenciados: (2.1) Depuración previa a la unificación, en el cual hemos tratado los datasets por separado y hemos reducido las variables necesarias y (2.2) Depuración posterior a la unificación, donde hemos seleccionado las variables relevantes del dataset unificado para un fiable tratamiento de datos.
 
 ### 2.1. Depuración previa a la unificación
-#### 2.1.1. locals_dt
+#### 2.1.1. Nuestro dataset base: locals_dt
 En primer lugar limitaremos nuestro datasets a las variables necesarias para realizar un correcto preprocesamiento de datos:
 * Nom_Local: Nombre del local.
 * Nom_Via: Nombre de la vía donde se encuentra el local.
@@ -30,7 +30,7 @@ Por otra parte, crearemos una nueva columna 'isAvailability' la cual contenga Tr
 
 Finalmente, agruparíamos en una misma columna 'addresses' la dirección del local concatenando las columnas 'Nom_Via' y 'Porta' y por último, reordenaremos y renombraremos las variables para una mejor visibilidad del dataset.
 
-#### 2.1.2. prices_dt
+#### 2.1.2. Nuestro dataset complementario: prices_dt
 En primer lugar castearemos las variables que contienen los valores de los precios por años a variables numéricas. Seguidamente unificaremos los dos datasets de precios de venta y alquiler y eliminaremos las variables duplicadas.
 
 Finalmente, restringiremos nuestro dataset a los datos de los precios de un año en concreto: 2011 y seguidamente, suprimiremos las columnas innecesarias.
