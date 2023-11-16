@@ -57,7 +57,7 @@ Finalmente, renombraremos las columnas tal que nuestro dataset final se componga
 * salePrice: Precio de venta del local.
 
 
-## 3. Análisis de datos
+## 3. Análisis de datos: Visualización y conclusiones
 Utilizando herramientas de visualización y técnicas estadísticas, exploraremos las características clave que definen la naturaleza de los locales comerciales y su entorno. A través de este análisis, buscamos revelar percepciones valiosas que respalden la toma de decisiones informada y proporcionen una visión clara de los factores que influyen en la dinámica de nuestro conjunto de datos.
 
 ### 3.1. Scatter plot: Relación entre logitud y latitud
@@ -96,4 +96,3 @@ El análisis respalda la validez del concepto de "milla de oro" al revelar patro
 
 En resumen, la estrategia de establecer un local en una "milla de oro" emerge como una táctica efectiva respaldada por el análisis de datos, ofreciendo ventajas competitivas y oportunidades de crecimiento en el mercado local.
 
-## 5. Conclusiones
