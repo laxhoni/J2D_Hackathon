@@ -1,4 +1,4 @@
-# J2D_Hackathon
+# DataCommerIdeal
 
 ## 1. Introducción
 En primer lugar, describamos los datasets a unificar escogidos y razonamos el por qué de dicha decisión: Como dataset base hemos escogido el dataset "2019_censcomercialbcn_detall.csv" el cual hemos denominado como locals_dt. En él encontraremos la información más relevante sobre los comercios locales disponibles y ocupados en los diferentes distritos y barrios Barcelona en 2019. Por otra parte, nuestro dataset complementario se basa en una combinación de dos datasets los cuales almacenan el precio de alquiler mensual y venta de los distintos locales por barrios en Barcelona. Éstos son los siguientes: "loclloevolucio.csv" y "locveevolucio.csv" los cuales en conjunto serán nombrados como prices_dt.
@@ -95,4 +95,10 @@ El análisis respalda la validez del concepto de "milla de oro" al revelar patro
 * Sinergias Comerciales: La cercanía a otros comercios similares puede facilitar asociaciones estratégicas y sinergias comerciales, aprovechando la afluencia de clientes compartidos.
 
 En resumen, la estrategia de establecer un local en una "milla de oro" emerge como una táctica efectiva respaldada por el análisis de datos, ofreciendo ventajas competitivas y oportunidades de crecimiento en el mercado local.
+
+## 5.Implementación a futuro
+* Actualización de los datos a una fecha actual para poder abordar problemas de actualidad a tiempo real y dar solución a éstas con la mayor brevedad posible.
+* Aumento de la muestra del dataset para una mayor precisión en las predicciones así como una aplicación más fiel a la realidad.
+* Especializar nuestros datos en función no solo del distrito sino del barrio puediendo así facilitar al usuario la filtración de locales por proximidad.
+* Inclusión de otros datasets a nuestras variables como por ejemplo "opendatabcn_mercats-centrescomercials_galeries-comercials.csv" o "opendatabcn_mercats-centrescomercials_grans-centres-comercials" para tener en cuenta así zonas de grandes centros comerciales modificando así nuestra milla de oro en función de la ubicación de este tipo de competencia a gran escala.
 
